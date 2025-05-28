@@ -1,7 +1,7 @@
 {
   "name": "@escapps/esc-set",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "ESLint configuration for React, Next.js and Node.js projects",
   "main": "index.js",
   "license": "MIT",
