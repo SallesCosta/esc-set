@@ -2,12 +2,35 @@
   "name": "@escapps/esc-set",
   "version": "1.0.0",
   "private": true,
-  "description": "ESLint configuration.",
+  "description": "ESLint configuration for React, Next.js and Node.js projects",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "url": "sallescosta/esc-set"
+  "publishConfig": {
+    "access": "restricted"
   },
+  "files": [
+    "index.js",
+    "react.js",
+    "next.js",
+    "node.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "react",
+    "next",
+    "node",
+    "typescript"
+  ],
+  "author": "escapps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallescosta/esc-set.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sallescosta/esc-set/issues"
+  },
+  "homepage": "https://github.com/sallescosta/esc-set#readme",
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": ">=5"
