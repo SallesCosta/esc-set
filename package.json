@@ -5,9 +5,6 @@
   "description": "ESLint configuration for React, Next.js and Node.js projects",
   "main": "index.js",
   "license": "MIT",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "files": [
     "index.js",
     "react.js",
